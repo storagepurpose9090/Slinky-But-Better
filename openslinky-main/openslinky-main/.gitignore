@@ -1,0 +1,57 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Compiled native & Java artifacts
+*.dll
+*.dll.a
+*.exe
+*.lib
+*.a
+*.so
+*.dylib
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.def
+*.class
+*.jar
+
+# Generated sources (if ever emitted in-tree)
+generated/
+java_classes/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE / Editor / Tooling
+.vs/
+.vscode/
+.idea/
+.clangd/
+.cache/
+*.swp
+*.swo
+*~
+
+# Logs, dumps & OS metadata
+*.log
+*.tmp
+*.dmp
+*.i64
+*.idb
+.DS_Store
+Thumbs.db
+Desktop.ini

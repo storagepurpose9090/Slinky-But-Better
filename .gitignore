@@ -1,0 +1,7 @@
+# Build output (regenerable; ~27 MB of objects)
+build/
+
+# OS / editor metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
